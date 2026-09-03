@@ -12,3 +12,7 @@ spring:
     hibernate:
       ddl-auto: update
     show-sql: true
+  boot:
+    admin:
+      client:
+        url: http://localhost:1111
